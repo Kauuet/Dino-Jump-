@@ -35,7 +35,8 @@ Manipulação de Classes CSS via JS: Para disparar animações de salto.
 
 Lógica Matemática: Cálculo de coordenadas X e Y para identificar sobreposição de elementos na tela.
 
-👤 Autor
+----------------------------------------------------------------------------------------------------------------------
+
 Desenvolvido por Kauet Silva Sales
 
 LinkedIn: www.linkedin.com/in/kauet-silva
