@@ -1,0 +1,65 @@
+body { 
+    background-color: black; 
+}
+
+#background {/*background do jogo que é a parte onde o dino e o cacto ficam*/
+    background-image: url(Assets/solo.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border: dotted 2px green;
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+
+} /* */
+
+#cactus {
+    background-image: url(Assets/cactuscerto.png);
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 34px;
+    animation: cactuscerto-animation 2s infinite linear;
+}
+
+@keyframes cactuscerto-animation {
+   From {
+        left: 600px;
+   }  
+    To  {
+        left: -60px;
+        }  
+}
+
+#dino {
+    background-image: url(Assets/Captura\ de\ tela\ 2026-02-19\ 163350.png);
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 65px;
+    left: 20px;
+}
+
+.jump {
+    animation: jump 1s ease-out;  
+
+}
+
+@keyframes jump {
+    0% {
+        top: 358px;
+    }
+    50% {
+        top: 150px;
+    }
+    100% {
+        top: 358px;
+    }
+    
+}
+
